@@ -1,19 +1,21 @@
 <template>
   <div id="app">
-   
     <posts></posts>
+    <newpost></newpost>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Posts from './components/Posts.vue'
+import Newpost from './components/Newpost.vue'
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
-    Posts
+    Posts,
+    Newpost
   }
 }
 </script>
